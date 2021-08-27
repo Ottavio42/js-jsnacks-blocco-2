@@ -7,3 +7,6 @@ if ( numeroU % 2 == 0 ) {
         numeroS = (numeroU + 1);
         console.log(numeroS)
     }
+    while( isNaN(numeroU) ) {
+        numeroU = parseInt(prompt( "inserisci un numero :"));
+    }
