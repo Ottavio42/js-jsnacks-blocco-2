@@ -1,5 +1,9 @@
 var numeroU = parseInt(prompt( "inserisci un numero :"));
 
+while( isNaN(numeroU) ) {
+    numeroU = parseInt(prompt( "inserisci un numero :"));
+}
+
 if ( numeroU % 2 == 0 ) {
     console.log(numeroU);
 }
@@ -7,6 +11,4 @@ if ( numeroU % 2 == 0 ) {
         numeroS = (numeroU + 1);
         console.log(numeroS)
     }
-    while( isNaN(numeroU) ) {
-        numeroU = parseInt(prompt( "inserisci un numero :"));
-    }
+    
